@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Intelligent Computing",
+        "desc":"Affective computing, Cognitive Computing, data analytics for cyber resilience,Knowledge representation techniques, Case-based reasoning, Commonsense reasoning, Theory and practice of AI creativity, AI for painting, metaverse, fashion and design, cross-modal art generation, aesthetics understanding, Authentication and copyright protection, Decision Support Systems, Evolutionary algorithms, Genetic algorithms, Support Vector Machines, Nature Inspired Computing, Computational Optimization, Clustering, Image and Video Processing, Signal &amp, Speech processing, Fuzzy Systems, Neural Networks and machine Learning Systems, Deep Learning, Expert Systems, Data Mining"
+    },
+    {
+        "title":"Devices and Systems",
+        "desc":"Intelligent Manufacturing, AI driven Internet of Things, Sensors and Applications, Industrial Automation and Robotics, e-waste and Green Manufacturing, Technology and Industrial Management. Quantum Information Science, Quantum algorithms, New Quantum Solver approaches, Quantum Machine Learning, VLSI, Application Specific Architectures, Embedded and Reconfigurable Systems, Advanced Computer Architectures, Cyber physical Systems, Energy and AI, Embedded Computing, Scalable Computing, Mobile Computing, Pervasive computing."
+    },
+    {
+        "title":"Software and Distributed systems",
+        "desc":"Block chain based protocols and Algorithms, Block chain for Governance, Hadoop and Map Reduce techniques, Cognitive Communications and Networking, Grid Computing, Cloud Computing, Cyber security, Cryptography, e-commerce, e- learning, Cloud Assisted Smart Learning, Computational Linguistics, Social media computing, Sentimental Analysis, Natural Language Processing, Software Language Design, AI driven Requirements engineering, Software Design, Maintenance, Automated software Testing, Knowledge based Reengineering and reverse engineering, Software metrics, Program comprehension"
+    },
+    {
+        "title":"Medical and Health Informatics",
+        "desc":"Wearable Computing, AI powered surgical Robots, Bio-informatics, Computational Biology, Biochips, Biometrics, Platforms for drug Discovery, Forecasting Diseases, Assistive technology, Predictive Analysis, Functional Genomics, Clinical documentation, Nutritional Bioinformatics, Forensics, Neuroscience, cognitive science and psychology, Medical Image Analysis, Radiology Artificial Intelligence."
+    }
+]
