@@ -240,6 +240,11 @@
                     color: white !important;
                     text-transform: capitalize;
                 }
+                @media only screen and (max-width: 600px) {
+                    .single-card{
+                        min-height: none !important;
+                    }
+                }
             </style>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
@@ -320,7 +325,61 @@
     </section>
 
 
+    <section class="pricing-card-area section-padding2">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-8">
+                    <div class="section-tittle text-center mb-100">
+                        <h2>Important Dates</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <style>
+                    table, th, td {
+                        border: 2px solid black !important;
+                        padding: 1.5rem;
+                        border-collapse: collapse !important;
 
+                    }
+                </style>
+                <table class="table table-bordered p-5" width="100%">
+                    <thead>
+                      <tr>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td width="50%">Submission Deadline</td>
+                        <td>5 January 2023</td>
+                      </tr>
+                      <tr>
+                        <td >Acceptance Notification</td>
+                        <td>31 January 2023</td>
+                      </tr>
+                      <tr>
+                        <td>Early-Bird registration Deadline</td>
+                        <td>6 February 2023</td>
+                      </tr>
+                      <tr>
+                        <td>Standard Registration Deadline</td>
+                        <td>15 February 2023</td>
+                      </tr>
+                      <tr>
+                        <td>Camera Ready Submission Deadline</td>
+                        <td>15 February 2023</td>
+                      </tr>
+                      <tr>
+                        <td>Conference Dates</td>
+                        <td>15 &hyphen; 17 March 2023</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+        </div>
+    </section>
 
 
     <section class="team-area pt-180 pb-100 section-bg" data-background="assets/img/gallery/section_bg02.png">
