@@ -237,3 +237,16 @@
 
 
 })(jQuery);
+
+
+fetch('Json/hotels.json')
+    .then((response) => response.json())
+    .then((json) => deploy(json));
+
+function deploy(json){
+  json.forEach(element => {
+    // console.log(element.name)
+    // console.log(element.website)
+    document.getElementById("hotels-nearby").innerHTML += ('<li>'+`<a href="${element.website}">${element.name}</a>`+'</li>');
+  });
+}
