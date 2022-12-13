@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Event HTML-5 Template </title>
+    <title> ICAISE 2023 | DCS CUSAT </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -24,13 +24,18 @@
 
 </head>
 <body>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
     <!-- ? Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="https://cusat.ac.in/files/pictures/pictures_1_logo.png" alt="">
                 </div>
             </div>
         </div>
@@ -45,32 +50,23 @@
                     <!-- Logo -->
                     <div class="col-xl-2 col-lg-2 col-md-1">
                         <div class="logo">
-                            <a href="index.html" style="color: black;">ICAISE 2023</a>
+                            <a href="index.html" style="color: rgb(41, 0, 189);" class="h4"><strong>ICAISE 2023</strong></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
-                        <div class="menu-main d-flex align-items-center justify-content-end">
+                        <div class="menu-main">
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="spakers.html">Spakers</a></li>
-                                        <li><a href="schedule.html">Schedule</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog_details.html">Blog Details</a></li>
-                                                <li><a href="elements.html">Element</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#tracks">Conference Tracks</a></li>
+                                        <li><a href="#schedule">Program Schedule</a></li>
+                                        <li><a href="#committee">Committee</a></li>
+                                        <li><a href="#contact-details">Contact</a></li>
                                     </ul>
                                 </nav>
-                            </div>
-                            <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                <a href="#" class="btn header-btn">Get Your Ticket</a>
                             </div>
                         </div>
                     </div>   
@@ -132,7 +128,7 @@
     </div>
     <!-- slider Area End-->
     <!--? About Law Start-->
-    <section class="about-low-area section-padding2">
+    <section class="about-low-area section-padding2" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -200,7 +196,7 @@
     </section>
     <!-- About Law End-->
     <!--? Brand Area Start -->
-    <section class="pricing-card-area section-padding2" style="padding-bottom: none !important;">
+    <section class="pricing-card-area section-padding2" style="padding-bottom: none !important;" id="tracks">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row justify-content-center">
@@ -310,7 +306,7 @@
     </section>
 
 
-    <section class="pricing-card-area section-padding2" style="padding-top: 0 !important;">
+    <section class="pricing-card-area section-padding2" style="padding-top: 0 !important;" id="dates">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row justify-content-center">
@@ -368,7 +364,7 @@
 
     <!-- Brand Area End -->  
     <!--? accordion -->
-    <section class="accordion fix section-padding3">
+    <section class="accordion fix section-padding3" id="schedule">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -488,7 +484,7 @@
     <!--? gallery Products Start -->
     <!-- gallery Products End -->
     <!--? Pricing Card Start -->
-    <section class="pricing-card-area section-padding2">
+    <section class="pricing-card-area section-padding2" id="registration">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row justify-content-center">
@@ -546,7 +542,7 @@
     </section>
     <!-- Pricing Card End -->
     <!--? Brand Area Start-->
-    <section class="work-company section-padding30" style="background: #2e0e8c;">
+    <section class="work-company section-padding30" style="background: #2e0e8c;" id="committee">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
@@ -601,7 +597,7 @@
     </section>
     <!-- Brand Area End-->
     <!--? Blog Area Start -->
-    <section class="home-blog-area section-padding30">
+    <section class="home-blog-area section-padding30" id="venue">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row justify-content-center">
@@ -677,8 +673,8 @@
     </section>
     <!-- Blog Area End -->
 
-    <section class="mb-4 section-padding30 pt-0">
-        <div class="container" id="contact-details">
+    <section class="mb-4 section-padding30 pt-0" id="contact-details">
+        <div class="container" >
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="section-tittle text-center mb-50">
