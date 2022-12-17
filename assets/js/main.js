@@ -250,3 +250,16 @@ function deploy(json){
     document.getElementById("hotels-nearby").innerHTML += ('<li>'+`<a href="${element.website}">${element.name}</a>`+'</li>');
   });
 }
+
+fetch('Json/committee.json')
+    .then((response) => response.json())
+    .then((json) => committee(json));
+
+function committee(json){
+  json.forEach(element => {
+    document.getElementById("pc-list").innerHTML += (
+      `<h5 class="mt-4">&#x2022; ${element.name}</h5>`+
+      `<h5>${element.designation}</h5>`
+    );
+  });
+}
