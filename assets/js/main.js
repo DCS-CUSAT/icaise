@@ -263,3 +263,69 @@ function committee(json){
     );
   });
 }
+
+function tourismPhotos({image, name}){
+  return `
+    <div class="col-sm-12 col-lg-6 col-xxl-6 pt-4">
+      <div class="card">
+          <img class="card-img-top img-fluid" src="${image}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">${name}</h5>
+          </div>
+      </div>
+    </div>  
+  `
+}
+
+const tourism = [
+  {
+    "name":"Athirapilly Waterfalls",
+    "image":"assets/img/tourism/Athirappally.jpg"
+  },
+  {
+    "name":"Alleppey",
+    "image":"assets/img/tourism/Alleppey.jpg"
+  },
+  {
+    "name":"Alwaye",
+    "image":"assets/img/tourism/Alwaye.jpg"
+  },
+  {
+    "name":"Backwaters",
+    "image":"assets/img/tourism/Backwaters.jpg"
+  },
+  {
+    "name":"Chineese Net",
+    "image":"assets/img/tourism/Chineese Net.jpg"
+  },
+  {
+    "name":"Fort Kochi",
+    "image":"assets/img/tourism/Fortkochi.jpg"
+  },
+  {
+    "name":"Hill Palace",
+    "image":"assets/img/tourism/Hill Palace.jpg"
+  },
+  {
+    "name":"Kumarakom",
+    "image":"assets/img/tourism/Kumarakom.jpg"
+  },
+  {
+    "name":"Marine Drive",
+    "image":"assets/img/tourism/MarineDrive.jpg"
+  },
+  {
+    "name":"Munnar",
+    "image":"assets/img/tourism/Munnar.jpg"
+  },
+  {
+    "name":"Vypin Beach",
+    "image":"assets/img/tourism/Vypin Beach.jpg"
+  },
+  {
+    "name":"Willington Island",
+    "image":"assets/img/tourism/Willington Island.jpg"
+  }
+]
+
+document.getElementById("tourism").innerHTML = tourism.map(tourismPhotos).join('');
