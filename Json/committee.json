@@ -1,2 +1,50 @@
 [
+    {
+        "name":"José Valente de Oliveira", 
+        "designation":"University of Algarve, Portugal"
+    },
+    {
+        "name":"Lefteris (Eleftherios) Angelis", 
+        "designation":"Aristotle University of Thessaloniki, Greece"
+    },
+    {
+        "name":"Zbigniew Suraj", 
+        "designation":"University of Rzeszów, Poland"
+    },
+    {
+        "name":"Juan Manuel Carrillo de Gea", 
+        "designation":"University of Murcia, Spain"
+    },
+    {
+        "name":"Chanchal Roy", 
+        "designation":"University of Saskatchewan, Canada"
+    },
+    {
+        "name":"Marjan Mernik", 
+        "designation":"University of Maribor, Slovenia"
+    },
+    {
+        "name":"Boris Tudjarov", 
+        "designation":"Technical University of Sofia, Bulgaria"
+    },
+    {
+        "name":"Juan Flores", 
+        "designation":"University of Oregon, USA"        
+    },
+    {
+        "name":"Sasikumar Punnekkat", 
+        "designation":"Mälardalen University, Sweden"        
+    },
+    {
+        "name":"Wei-Chiang Hong", 
+        "designation":"Asia Eastern University of Science and Technology, Taiwan"        
+    },
+    {
+        "name":"G. Santhosh Kumar", 
+        "designation":"Cochin University of Science and Technology"        
+    },
+    {
+        "name":"Madhu S. Nair", 
+        "designation":"Cochin University of Science and Technology"        
+    }
 ]
