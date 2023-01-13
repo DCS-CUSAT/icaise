@@ -329,3 +329,7 @@ const tourism = [
 ]
 
 document.getElementById("tourism").innerHTML = tourism.map(tourismPhotos).join('');
+
+$.getJSON("https://api.countapi.xyz/hit/icaise.cusat.ac.in", function(response) {
+  document.getElementById("view-count").innerHTML = response.value;
+});
