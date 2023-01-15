@@ -258,8 +258,8 @@ fetch('Json/committee.json')
 function committee(json){
   json.forEach(element => {
     document.getElementById("pc-list").innerHTML += (
-      `<h5 class="mt-4">&#x2022; ${element.name}</h5>`+
-      `<h5>${element.designation}</h5>`
+      `<h5>&#x2022; ${element.name}</h5>`+
+      `<h5 class="mb-4">${element.designation}</h5>`
     );
   });
 }
