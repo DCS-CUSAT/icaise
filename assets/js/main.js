@@ -258,8 +258,8 @@ fetch('Json/committee.json')
 function committee(json){
   json.forEach(element => {
     document.getElementById("pc-list").innerHTML += (
-      `<h5 class="mt-4">&#x2022; ${element.name}</h5>`+
-      `<h5>${element.designation}</h5>`
+      `<h5>&#x2022; ${element.name}</h5>`+
+      `<h5 class="mb-4">${element.designation}</h5>`
     );
   });
 }
@@ -268,7 +268,7 @@ function tourismPhotos({image, name}){
   return `
     <div class="col-sm-12 col-lg-6 col-xxl-6 pt-4">
       <div class="card">
-          <img class="card-img-top img-fluid" src="${image}" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="${image}" alt="Card image cap" fetchpriority='low'>
           <div class="card-body">
             <h5 class="card-title">${name}</h5>
           </div>
@@ -331,6 +331,6 @@ const tourism = [
 document.getElementById("tourism").innerHTML = tourism.map(tourismPhotos).join('');
 
 $.getJSON("https://api.countapi.xyz/hit/icaise.cusat.ac.in", function(response) {
-  document.getElementById("view-count").innerHTML = response.value;
-  console.log(response.value)
+  document.getElementById("view-count").innerHTML = 1000+response.value;
+  // console.log(response.value)
 });
