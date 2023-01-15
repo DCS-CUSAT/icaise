@@ -268,7 +268,7 @@ function tourismPhotos({image, name}){
   return `
     <div class="col-sm-12 col-lg-6 col-xxl-6 pt-4">
       <div class="card">
-          <img class="card-img-top img-fluid" src="${image}" alt="Card image cap" fetchpriority='low'>
+          <img class="card-img-top img-fluid" src="${image}" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">${name}</h5>
           </div>
