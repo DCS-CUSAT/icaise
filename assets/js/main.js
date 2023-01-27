@@ -339,7 +339,7 @@ $.getJSON("https://api.countapi.xyz/hit/icaise.cusat.ac.in", function(response) 
 const speakers = [
   {
     "name":"Prof. Marjan Mernik",
-    "designation":"University of Maribor, Slovenia,Editor-In-Chief Journal of Computer Languages,Associate Editor Information Sciences,Associate Editor Applied Soft Computing",
+    "designation":"University of Maribor, Slovenia,<br>Editor-In-Chief Journal of Computer Languages, Associate Editor Information Sciences, Applied Soft Computing, Swarm and Evolutionary Computation",
     "cover_img":"assets/img/speakers/marjanmernik.png"
   }
 ]
@@ -347,13 +347,13 @@ const speakers = [
 
 function speakerCard({name,designation,cover_img}){
   return `
-  <div class="col-lg-3 col-md-6 col-sm-6">
+  <div class="col-lg-4 col-md-6 col-sm-6">
     <div class="single-team mb-30">
         <div class="team-img">
             <img src="${cover_img}" alt="">
         </div>
         <div class="team-caption">
-            <h3><a href="#">${name}</a></h3>
+            <h3 class="w-100"><a href="#">${name}</a></h3>
             <p>${designation}</p>
         </div>
     </div>
