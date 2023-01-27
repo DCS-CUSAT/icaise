@@ -334,3 +334,36 @@ $.getJSON("https://api.countapi.xyz/hit/icaise.cusat.ac.in", function(response) 
   document.getElementById("view-count").innerHTML = 1000+response.value;
   // console.log(response.value)
 });
+
+
+const speakers = [
+  {
+    "name":"Prof. Marjan Mernik",
+    "designation":"University of Maribor, Slovenia,Editor-In-Chief Journal of Computer Languages,Associate Editor Information Sciences,Associate Editor Applied Soft Computing",
+    "cover_img":"assets/img/speakers/marjanmernik.png"
+  }
+]
+
+
+function speakerCard({name,designation,cover_img}){
+  return `
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="single-team mb-30">
+        <div class="team-img">
+            <img src="${cover_img}" alt="">
+            <!-- Blog Social -->
+            <ul class="team-social">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+            </ul>
+        </div>
+        <div class="team-caption">
+            <h3><a href="#">${name}</a></h3>
+            <p>${designation}</p>
+        </div>
+    </div>
+  </div>`
+}
+
+document.getElementById("speaker-card").innerHTML = speakers.map(speakerCard).join('');
