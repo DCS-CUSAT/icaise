@@ -351,12 +351,6 @@ function speakerCard({name,designation,cover_img}){
     <div class="single-team mb-30">
         <div class="team-img">
             <img src="${cover_img}" alt="">
-            <!-- Blog Social -->
-            <ul class="team-social">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fas fa-globe"></i></a></li>
-            </ul>
         </div>
         <div class="team-caption">
             <h3><a href="#">${name}</a></h3>
