@@ -341,6 +341,11 @@ const speakers = [
     "name":"Prof. Marjan Mernik",
     "designation":"University of Maribor, Slovenia,<br>Editor-In-Chief Journal of Computer Languages, Associate Editor Information Sciences, Applied Soft Computing, Swarm and Evolutionary Computation",
     "cover_img":"assets/img/speakers/marjanmernik.png"
+  },
+  {
+    "name":"Dr. Jey Veerasamy",
+    "designation":"Director, Center for Computer Science Education & Outreach, Professor of Instruction, Department of Computer Science, Erik Jonsson School of Engineering & Computer Science, University of Texas at Dallas, USA",
+    "cover_img":"assets/img/speakers/jey.png"
   }
 ]
 
