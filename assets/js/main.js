@@ -352,7 +352,7 @@ const speakers = [
 
 function speakerCard({name,designation,cover_img}){
   return `
-  <div class="col-lg-4 col-md-6 col-sm-6">
+  <div class="col-lg-4 col-md-6 col-12">
     <div class="single-team mb-30">
         <div class="team-img">
             <img src="${cover_img}" alt="">
