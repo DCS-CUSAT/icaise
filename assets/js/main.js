@@ -340,17 +340,31 @@ const speakers = [
   {
     "name":"Prof. Marjan Mernik",
     "designation":"University of Maribor, Slovenia,<br>Editor-In-Chief Journal of Computer Languages, Associate Editor Information Sciences, Applied Soft Computing, Swarm and Evolutionary Computation",
-    "cover_img":"assets/img/speakers/marjanmernik.png"
+    "cover_img":"assets/img/speakers/marjanmernik.png",
+    "topic":"From Grammar Inference to Semantic Inference"
   },
   {
     "name":"Dr. Jey Veerasamy",
     "designation":"Director, Center for Computer Science Education & Outreach, Professor of Instruction, Department of Computer Science, Erik Jonsson School of Engineering & Computer Science, University of Texas at Dallas, USA",
-    "cover_img":"assets/img/speakers/jey.png"
-  }
+    "cover_img":"assets/img/speakers/jey.png",
+    "topic":"Enjoyable Programming"
+  },
+  {
+    "name":"Mr. Vivek R",
+    "designation":"Infrastructure Software Engineer,<br>Chorus One",
+    "cover_img":"assets/img/speakers/Frame 4.png",
+    "topic": "Blockchain consensus and running validators for PoS networks"
+  },
+  {
+    "name":"Dr. Vinu Sherimon",
+    "designation":"University of Technology and Applied Sciences,<br>Muscat, Sultanate of Oman",
+    "cover_img":"assets/img/speakers/Frame 3.png",
+    "topic": "Exit the Internet and enter the Metaverse?"
+  },
 ]
 
 
-function speakerCard({name,designation,cover_img}){
+function speakerCard({name,designation,cover_img,topic}){
   return `
   <div class="col-lg-4 col-md-6 col-12">
     <div class="single-team mb-30">
@@ -360,6 +374,7 @@ function speakerCard({name,designation,cover_img}){
         <div class="team-caption">
             <h3 class="w-100"><a href="#">${name}</a></h3>
             <p>${designation}</p>
+            <p><strong> Topic: "${topic}"</strong> </p>
         </div>
     </div>
   </div>`
