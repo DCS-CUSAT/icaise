@@ -361,7 +361,14 @@ const speakers = [
     "cover_img":"assets/img/speakers/Frame 3.png",
     "topic": "Exit the Internet and enter the Metaverse?"
   },
+  {
+    "name":"Mr. Anbu Ponniah",
+    "designation":"Chief Architect, IBM India Software Labs<br>Automation, ISL Kochi",
+    "cover_img":"assets/img/speakers/anbu.png",
+    "topic": "AI and Intelligent Automation"
+  },
 ]
+
 
 
 function speakerCard({name,designation,cover_img,topic}){
