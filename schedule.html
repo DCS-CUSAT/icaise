@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Event HTML-5 Template </title>
+    <title> Schedule - ICAISE Kochi 2023 </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico"> -->
 
 	<!-- CSS here -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
 </head>
 <body>
     <!-- ? Preloader Start -->
-    <div id="preloader-active">
+    <!-- <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader Start -->
 <header>
     <!--? Header Start -->
@@ -43,34 +43,25 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <!-- Logo -->
-                    <div class="col-xl-2 col-lg-2 col-md-1">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-6">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index.html" style="color: rgb(41, 0, 189);" class="h4"><img src="assets/img/logo/icaise.png" alt="" class="img-fluid" srcset=""></a>
                         </div>
                     </div>
-                    <div class="col-xl-10 col-lg-10 col-md-10">
-                        <div class="menu-main d-flex align-items-center justify-content-end">
+                    <div class="col-xl-9 col-lg-9 col-md-6">
+                        <div class="menu-main">
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="spakers.html">Spakers</a></li>
-                                        <li><a href="schedule.html">Schedule</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog_details.html">Blog Details</a></li>
-                                                <li><a href="elements.html">Element</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="index.html#about">About</a></li>
+                                        <li><a href="index.html#tracks">Conference Tracks</a></li>
+                                        <li><a href="index.html#schedule">Program Schedule</a></li>
+                                        <li><a href="index.html#committee">Committee</a></li>
+                                        <li><a href="index.html#contact-details">Contact</a></li>
                                     </ul>
                                 </nav>
-                            </div>
-                            <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                <a href="#" class="btn header-btn">Get Your Ticket</a>
                             </div>
                         </div>
                     </div>   
@@ -112,7 +103,7 @@
                                 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Day - 01</a>
                                 <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Day - 02</a>
                                 <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"> Day - 03 </a>
-                                <a class="nav-item nav-link" id="nav-dinner-tab" data-toggle="tab" href="#nav-dinner" role="tab" aria-controls="nav-dinner" aria-selected="false"> Day - 04 </a>
+                                <!-- <a class="nav-item nav-link" id="nav-dinner-tab" data-toggle="tab" href="#nav-dinner" role="tab" aria-controls="nav-dinner" aria-selected="false"> Day - 04 </a> -->
                             </div>
                         </nav>
                         <!--End Nav Button  -->
@@ -134,16 +125,36 @@
                                         <div class="card-header" id="headingTwo">
                                             <h2 class="mb-0">
                                                 <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    <span>8:30 AM - 9:30 AM</span>
-                                                    <p>Snackes</p>
+                                                    <span>9:30 am-11:00 am</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Inauguration:</strong> 
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+                                                                Dr. K.N Madhusoodanan,<br>
+                                                                Vice Chancellor, CUSAT 
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex col-12 mt-4">
+                                                            <div class="col-6">
+                                                                <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                            </div>
+                                                            <br>
+                                                            <div class="ml-3 col-6">
+                                                                Mr. Anoop P Ambika,<br>
+                                                                Chief Executive Officer, Kerala Startup Mission 
+                                                            </div>
+                                                        </div>
+                                                     </p>
                                                 </a> 
                                             </h2>
                                         </div>
-                                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <!-- <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- single-two -->
                                     <div class="card">
