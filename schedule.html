@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Event HTML-5 Template </title>
+    <title> Schedule - ICAISE Kochi 2023 </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico"> -->
 
 	<!-- CSS here -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
 </head>
 <body>
     <!-- ? Preloader Start -->
-    <div id="preloader-active">
+    <!-- <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader Start -->
 <header>
     <!--? Header Start -->
@@ -43,34 +43,25 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <!-- Logo -->
-                    <div class="col-xl-2 col-lg-2 col-md-1">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-6">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index.html" style="color: rgb(41, 0, 189);" class="h4"><img src="assets/img/logo/icaise.png" alt="" class="img-fluid" srcset=""></a>
                         </div>
                     </div>
-                    <div class="col-xl-10 col-lg-10 col-md-10">
-                        <div class="menu-main d-flex align-items-center justify-content-end">
+                    <div class="col-xl-9 col-lg-9 col-md-6">
+                        <div class="menu-main">
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="spakers.html">Spakers</a></li>
-                                        <li><a href="schedule.html">Schedule</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog_details.html">Blog Details</a></li>
-                                                <li><a href="elements.html">Element</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="index.html#about">About</a></li>
+                                        <li><a href="index.html#tracks">Conference Tracks</a></li>
+                                        <li><a href="index.html#schedule">Program Schedule</a></li>
+                                        <li><a href="index.html#committee">Committee</a></li>
+                                        <li><a href="index.html#contact-details">Contact</a></li>
                                     </ul>
                                 </nav>
-                            </div>
-                            <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                <a href="#" class="btn header-btn">Get Your Ticket</a>
                             </div>
                         </div>
                     </div>   
@@ -86,13 +77,15 @@
 </header>
 <main>
     <!--? Hero Start -->
-    <div class="slider-area2">
-        <div class="slider-height2 d-flex align-items-center">
+    <div class="pt-4 mb-4">
+        <div class="d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="hero-cap text-center">
-                            <h2>Schedule</h2>
+                        <div class="text-center">
+                            <div class="section-tittle text-center">
+                                <h2>Schedule</h2>
+                            </div>                        
                         </div>
                     </div>
                 </div>
@@ -101,10 +94,10 @@
     </div>
     <!-- Hero End -->
     <!--? accordion -->
-    <section class="accordion fix section-padding30">
+    <section class="accordion fix section-padding30 pt-0">
         <div class="container">
             <div class="row ">
-               <div class="col-lg-11">
+               <div class="col-lg-12">
                     <div class="properties__button mb-40">
                         <!--Nav Button  -->
                         <nav>                                                                         
@@ -112,7 +105,7 @@
                                 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Day - 01</a>
                                 <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"> Day - 02</a>
                                 <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"> Day - 03 </a>
-                                <a class="nav-item nav-link" id="nav-dinner-tab" data-toggle="tab" href="#nav-dinner" role="tab" aria-controls="nav-dinner" aria-selected="false"> Day - 04 </a>
+                                <!-- <a class="nav-item nav-link" id="nav-dinner-tab" data-toggle="tab" href="#nav-dinner" role="tab" aria-controls="nav-dinner" aria-selected="false"> Day - 04 </a> -->
                             </div>
                         </nav>
                         <!--End Nav Button  -->
@@ -129,46 +122,121 @@
                         <div class="col-lg-11">
                             <div class="accordion-wrapper">
                                 <div class="accordion" id="accordionExample">
+                                    <h2>15/03/2023</h2>
                                     <!-- single-one -->
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h2 class="mb-0">
                                                 <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    <span>8:30 AM - 9:30 AM</span>
-                                                    <p>Snackes</p>
+                                                    <span>9:30 am-11:00 am</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Inauguration:</strong> 
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+                                                                <strong>Dr. K.N Madhusoodanan</strong><br>
+                                                                Vice Chancellor, CUSAT 
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex col-12 mt-4">
+                                                            <div class="col-6">
+                                                                <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                            </div>
+                                                            <br>
+                                                            <div class="ml-3 col-6">
+                                                                <strong>Mr. Anoop P Ambika</strong><br>
+                                                                Chief Executive Officer, Kerala Startup Mission 
+                                                            </div>
+                                                        </div>
+                                                     </p>
                                                 </a> 
                                             </h2>
                                         </div>
-                                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <!-- <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- single-two -->
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h2 class="mb-0">
-                                                <a href="#" class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    <span>8:30 AM - 9:30 AM</span>
-                                                    <p>Opening conference</p>
-                                                </a>
+                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <span>11:30am-1:00pm</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Dr.A.K.Menon Endowment Lecture:</strong> 
+                                                                <br>
+                                                                Digital Revolution: Enablers for the Past and Future
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+                                                                <strong>Dr.P .J .Narayanan</strong> <br>
+                                                                Director, International Institute of Information Technology, IIIT <br>
+                                                                Hyderabad
+
+                                                                <br><br>
+
+                                                                <strong>Session Chair: Dr.Sumam Mary Idicula </strong><br>
+                                                                President, Computer Science Alumni Association
+                                                            </div>
+                                                        </div>
+                                                     </p>
+                                                </a> 
                                             </h2>
                                         </div>
-                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <!-- <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- single-three -->
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h2 class="mb-0">
-                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    <span>8:30 AM - 9:30 AM</span>
-                                                    <p>Conference ending</p>
-                                                </a>
+                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <span>2:00pm-4:00pm</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Paper Presentation I</strong> 
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+                                                                <strong>Paper id: 30</strong>  A Precise IFCIoT Platform for the Achievement of
+                                                                Semantic Interoperability in Healthcare Data Systems, Sony P, Siva
+                                                                Shanmugam G, Sureshkumar N (Vellore Institute of Technology);
+
+                                                                <br><br>
+                                                                <strong>Paper id: 17</strong>  Strategies of power allocation for QoS parameters in
+                                                                NOMA for 5G wireless communications, Lekshmi nair M (SCMS, APJ
+                                                                Abdul Kalam Technological University), Neelakantan P. C (Muthoot
+                                                                Institute of Technology and Science).
+
+                                                                <br><br>
+                                                                <strong>Paper id: 3 </strong> Network Science and Climate Dynamics - A Mini
+                                                                Review, Abhijith S Babu, Divya Sindhu Lekha (Indian Institute of
+                                                                Information Technology Kottayam)
+
+                                                                <br><br>
+                                                                <strong>Paper id: 9 </strong> Natural Language Interface in Malayalam for SQL
+                                                                Databases, Anjali Augestin, Geethu Subramanyan C, Kavya das, Ummu
+                                                                Habeeba P P, Visakh R (Government Engineering College Idukki)                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="d-flex col-12 mt-4">
+                                                            <div class="col-6">
+                                                                <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                            </div>
+                                                            <br>
+                                                            <div class="ml-3 col-6">
+                                                                Mr. Anoop P Ambika,<br>
+                                                                Chief Executive Officer, Kerala Startup Mission 
+                                                            </div>
+                                                        </div> -->
+                                                     </p>
+                                                </a> 
                                             </h2>
                                         </div>
                                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -188,53 +256,184 @@
                         <div class="col-lg-11">
                             <div class="accordion-wrapper">
                                 <div class="accordion" id="accordionExample">
+                                    <h2>16/03/2023</h2>
                                     <!-- single-one -->
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h2 class="mb-0">
-                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-                                                    <span>8:30 AM - 9:30 AM</span>
-                                                    <p>Snackes</p>
+                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <span>9:15 am-11:00 am</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Paper Presentation II</strong> 
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+                                                                <strong>Paper id: 24 </strong>  GranReg: Granger-Regression-based Inference of Gene
+                                                                Regulatory Network with Seasonal Differencing, Emma Paul, Jereesh A
+                                                                S, Santhosh Kumar G (Cochin University of Science and Technology)
+
+                                                                <br><br>
+                                                                <strong>Paper id: 26 </strong>  Genetic Algorithm for Double Roman Domination
+                                                                Problem, Himanshu Aggarwal, P. Venkata Subba Reddy (NIT
+                                                                Warangal)
+
+                                                                <br><br>
+                                                                <strong>Paper id: 20 </strong>  Disease Diagnosis and Prediction using DNA
+                                                                sequencing with patterns in Biological Data, Banothu Ramji, Raju
+                                                                Bhukya (National Institute of Technology Warangal)
+
+                                                                <br><br>
+                                                                <strong>Paper id: 22 </strong>  Multi Block Transformer for Malayalam Language
+                                                                Modeling, Rohit T P, Sasi Gopalan, Varsha Shaheen (Cochin
+                                                                University of Science and Technology)
+
+                                                                <br><br>
+                                                                <strong>Paper id: 31 </strong>  Cognitive skills in Code Comprehension using Machine
+                                                                Learning Methods, Divjot Singh, Ashutosh Mishra, Ashutosh
+                                                                Aggarwal (Thapar Institute of Engineering &amp; Technology, Patiala)                                                          </div>
+                                                        </div>
+                                                        <!-- <div class="d-flex col-12 mt-4">
+                                                            <div class="col-6">
+                                                                <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                            </div>
+                                                            <br>
+                                                            <div class="ml-3 col-6">
+                                                                Mr. Anoop P Ambika,<br>
+                                                                Chief Executive Officer, Kerala Startup Mission 
+                                                            </div>
+                                                        </div> -->
+                                                     </p>
                                                 </a> 
                                             </h2>
                                         </div>
-                                        <div id="collapseTwo2" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <!-- <div id="collapseTwo2" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- single-two -->
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h2 class="mb-0">
-                                                <a href="#" class="btn-link" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
-                                                    <span>8:30 AM - 9:30 AM</span>
-                                                    <p>Opening conference</p>
-                                                </a>
+                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <span>11:30am-1:00pm</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Keynote: &quot;From Grammar Inference to Semantic Inference&quot;</strong> 
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+                                                                <strong>Dr. Marjan Mernik</strong><br>
+                                                                Professor, University of Maribor, Slovenia,<br>
+                                                                Editor-In-Chief Journal of Computer Languages, <br> Associate Editor
+                                                                Information Sciences, <br> Applied Soft Computing, <br> Swarm and
+                                                                Evolutionary Computation <br>
+                                                         </div>
+                                                        </div>
+                                                        <!-- <div class="d-flex col-12 mt-4">
+                                                            <div class="col-6">
+                                                                <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                            </div>
+                                                            <br>
+                                                            <div class="ml-3 col-6">
+                                                                Mr. Anoop P Ambika,<br>
+                                                                Chief Executive Officer, Kerala Startup Mission 
+                                                            </div>
+                                                        </div> -->
+                                                     </p>
+                                                </a> 
                                             </h2>
                                         </div>
-                                        <div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <!-- <div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- single-three -->
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h2 class="mb-0">
-                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
-                                                    <span>8:30 AM - 9:30 AM</span>
-                                                    <p>Conference ending</p>
-                                                </a>
+                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <span>2:00pm-3:00pm</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Keynote: &quot;Blockchain consensus and running validators for PoS networks&quot;</strong> 
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+                                                                <strong>Mr. Vivek R</strong><br>
+                                                                Infrastructure Software Engineer,<br>
+                                                                Chorus One
+                                                         </div>
+                                                        </div>
+                                                        <!-- <div class="d-flex col-12 mt-4">
+                                                            <div class="col-6">
+                                                                <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                            </div>
+                                                            <br>
+                                                            <div class="ml-3 col-6">
+                                                                Mr. Anoop P Ambika,<br>
+                                                                Chief Executive Officer, Kerala Startup Mission 
+                                                            </div>
+                                                        </div> -->
+                                                     </p>
+                                                </a> 
                                             </h2>
                                         </div>
-                                        <div id="collapseThree3" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <!-- <div id="collapseThree3" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                             </div>
+                                        </div> -->
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h2 class="mb-0">
+                                                <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <span>3:15pm-4:15pm</span>
+                                                    <p>
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-6">
+                                                                <strong>Paper Presentation III</strong> 
+                                                            </div>
+                                                            <div class="ml-3 col-6">
+
+                                                                <strong>Paper id: 15 </strong> Exploring the potential of Ensemble Based Machine
+                                                                Learning Techniques in Polycystic Ovary Syndrome Diagnosis
+                                                                Mohammed Usman F, Afrah Ayub, Thirumala Akash K, Nitesh Kumar
+                                                                T, Mohammed Riyaz Ahmed (Reva University, Bengaluru)
+
+                                                                <br><br>
+
+                                                                <strong>Paper id: 18</strong>  sEMG Signal based Hand Gesture Recognition Using
+                                                                Machine Learning, Nithin Kurian, Dheeraj S Nair, Shailesh S (Cochin
+                                                                University of Science and Technology)
+
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="d-flex col-12 mt-4">
+                                                            <div class="col-6">
+                                                                <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                            </div>
+                                                            <br>
+                                                            <div class="ml-3 col-6">
+                                                                Mr. Anoop P Ambika,<br>
+                                                                Chief Executive Officer, Kerala Startup Mission 
+                                                            </div>
+                                                        </div> -->
+                                                     </p>
+                                                </a> 
+                                            </h2>
                                         </div>
+                                        <!-- <div id="collapseTwo2" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
+                                            </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -247,118 +446,206 @@
                             <div class="col-lg-11">
                                 <div class="accordion-wrapper">
                                     <div class="accordion" id="accordionExample">
+                                        <h2>17/03/2023</h2>
                                         <!-- single-one -->
                                         <div class="card">
                                             <div class="card-header" id="headingTwo">
                                                 <h2 class="mb-0">
-                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo01" aria-expanded="false" aria-controls="collapseTwo01">
-                                                        <span>8:30 AM - 9:30 AM</span>
-                                                        <p>Snackes</p>
+                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span>9:30 am-10:30 am</span>
+                                                        <p>
+                                                            <div class="d-flex col-12">
+                                                                <div class="col-6">
+                                                                    <strong>Keynote: &quot;Enjoyable Programming&quot;</strong> 
+                                                                </div>
+                                                                <div class="ml-3 col-6">
+
+                                                                    <strong>Dr. Jey Veerasamy</strong><br>
+                                                                    Director, Center for Computer Science Education &amp; Outreach, <br>
+                                                                    Professor of Instruction, Department of Computer Science, <br>
+                                                                    Erik Jonsson School of Engineering &amp; Computer Science, <br>
+                                                                    University of Texas at Dallas, USA                             <br>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="d-flex col-12 mt-4">
+                                                                <div class="col-6">
+                                                                    <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                                </div>
+                                                                <br>
+                                                                <div class="ml-3 col-6">
+                                                                    Mr. Anoop P Ambika,<br>
+                                                                    Chief Executive Officer, Kerala Startup Mission 
+                                                                </div>
+                                                            </div> -->
+                                                         </p>
                                                     </a> 
                                                 </h2>
                                             </div>
-                                            <div id="collapseTwo01" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <!-- <div id="collapseTwo01" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                                 <div class="card-body">
                                                     There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <!-- single-two -->
                                         <div class="card">
                                             <div class="card-header" id="headingOne">
                                                 <h2 class="mb-0">
-                                                    <a href="#" class="btn-link" data-toggle="collapse" data-target="#collapseOne02" aria-expanded="true" aria-controls="collapseOne02">
-                                                        <span>8:30 AM - 9:30 AM</span>
-                                                        <p>Opening conference</p>
-                                                    </a>
+                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span>10:30am-11:30am</span>
+                                                        <p>
+                                                            <div class="d-flex col-12">
+                                                                <div class="col-6">
+                                                                    <strong>Keynote: &quot;Exit the Internet and enter the Metaverse?&quot;</strong> 
+                                                                </div>
+                                                                <div class="ml-3 col-6">
+
+                                                                    <strong>Dr.Vinu Sherimon</strong> <br>
+                                                                    College of Computing and Information Sciences, University of <br>
+                                                                    Technology and Applied Sciences, <br>
+                                                                    Muscat, Sultanate of Oman <br>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="d-flex col-12 mt-4">
+                                                                <div class="col-6">
+                                                                    <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                                </div>
+                                                                <br>
+                                                                <div class="ml-3 col-6">
+                                                                    Mr. Anoop P Ambika,<br>
+                                                                    Chief Executive Officer, Kerala Startup Mission 
+                                                                </div>
+                                                            </div> -->
+                                                         </p>
+                                                    </a> 
                                                 </h2>
                                             </div>
-                                            <div id="collapseOne02" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <!-- <div id="collapseOne02" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                                 <div class="card-body">
                                                     There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <!-- single-three -->
                                         <div class="card">
                                             <div class="card-header" id="headingThree">
                                                 <h2 class="mb-0">
-                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree03" aria-expanded="false" aria-controls="collapseThree03">
-                                                        <span>8:30 AM - 9:30 AM</span>
-                                                        <p>Conference ending</p>
+                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span>12:00pm-12:45pm</span>
+                                                        <p>
+                                                            <div class="d-flex col-12">
+                                                                <div class="col-6">
+                                                                    <strong>Keynote: "AI and Intelligent Automation"</strong> 
+                                                                </div>
+                                                                <div class="ml-3 col-6">
+
+                                                                    <strong>Mr. Anbu Ponniah</strong> <br>
+                                                                    Chieft Architect,<br>
+                                                                    IBM India Software Labs <br>
+                                                                    Automation, ISL Kochi <br>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="d-flex col-12 mt-4">
+                                                                <div class="col-6">
+                                                                    <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                                </div>
+                                                                <br>
+                                                                <div class="ml-3 col-6">
+                                                                    Mr. Anoop P Ambika,<br>
+                                                                    Chief Executive Officer, Kerala Startup Mission 
+                                                                </div>
+                                                            </div> -->
+                                                         </p>
                                                     </a>
                                                 </h2>
                                             </div>
-                                            <div id="collapseThree03" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <!-- <div id="collapseThree03" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                                 <div class="card-body">
                                                     There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
                                                 </div>
+                                            </div> -->
+                                        </div>
+
+                                        <!-- single-four -->
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <h2 class="mb-0">
+                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span>2:00pm-3:00pm</span>
+                                                        <p>
+                                                            <div class="d-flex col-12">
+                                                                <div class="col-6">
+                                                                    <strong>Cultural Events</strong> 
+                                                                </div>
+                                                                <div class="ml-3 col-6">
+                                                                    <strong>Convenor: Ms. Cillah Reji Samuel</strong>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="d-flex col-12 mt-4">
+                                                                <div class="col-6">
+                                                                    <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                                </div>
+                                                                <br>
+                                                                <div class="ml-3 col-6">
+                                                                    Mr. Anoop P Ambika,<br>
+                                                                    Chief Executive Officer, Kerala Startup Mission 
+                                                                </div>
+                                                            </div> -->
+                                                         </p>
+                                                    </a>
+                                                </h2>
                                             </div>
+                                            <!-- <div id="collapseThree03" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
+                                                </div>
+                                            </div> -->
+                                        </div>
+
+                                        <!-- single-four -->
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <h2 class="mb-0">
+                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span>3:00pm-4:00pm</span>
+                                                        <p>
+                                                            <div class="d-flex col-12">
+                                                                <div class="col-6">
+                                                                    <strong>Valedictory and Felicitation to retiring General Chairs:</strong> 
+                                                                </div>
+                                                                <div class="ml-3 col-6">
+                                                                    <strong>Sri. Muralidharan K B &amp; Dr. David Peter S</strong>  <br>
+                                                                    <strong>Session Chair:Mr. Sunil Balakrishnan</strong>  <br>
+                                                                    Chief Values Officer &amp; Global Head - Center Operations, <br>
+                                                                    UST <br>                                                                
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="d-flex col-12 mt-4">
+                                                                <div class="col-6">
+                                                                    <strong>Felicitation &amp; Dr A.K.Menon Endowment Scholarship Distribution:</strong> 
+                                                                </div>
+                                                                <br>
+                                                                <div class="ml-3 col-6">
+                                                                    Mr. Anoop P Ambika,<br>
+                                                                    Chief Executive Officer, Kerala Startup Mission 
+                                                                </div>
+                                                            </div> -->
+                                                         </p>
+                                                    </a>
+                                                </h2>
+                                            </div>
+                                            <!-- <div id="collapseThree03" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
+                                                </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                     </div>
                 </div>
-                <!-- Card Four -->
-                <div class="tab-pane fade" id="nav-dinner" role="tabpanel" aria-labelledby="nav-dinner">
-                    <div class="row">
-                            <div class="col-lg-11">
-                                <div class="accordion-wrapper">
-                                    <div class="accordion" id="accordionExample">
-                                        <!-- single-one -->
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwo">
-                                                <h2 class="mb-0">
-                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo10" aria-expanded="false" aria-controls="collapseTwo10">
-                                                        <span>8:30 AM - 9:30 AM</span>
-                                                        <p>Snackes</p>
-                                                    </a> 
-                                                </h2>
-                                            </div>
-                                            <div id="collapseTwo10" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                                <div class="card-body">
-                                                    There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-two -->
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h2 class="mb-0">
-                                                    <a href="#" class="btn-link" data-toggle="collapse" data-target="#collapseOne20" aria-expanded="true" aria-controls="collapseOne20">
-                                                        <span>8:30 AM - 9:30 AM</span>
-                                                        <p>Opening conference</p>
-                                                    </a>
-                                                </h2>
-                                            </div>
-                                            <div id="collapseOne20" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                                <div class="card-body">
-                                                    There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-three -->
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h2 class="mb-0">
-                                                    <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree30" aria-expanded="false" aria-controls="collapseThree30">
-                                                        <span>8:30 AM - 9:30 AM</span>
-                                                        <p>Conference ending</p>
-                                                    </a>
-                                                </h2>
-                                            </div>
-                                            <div id="collapseThree30" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                                <div class="card-body">
-                                                    There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.rere arge many variations ohf passages of sorem gpsum ilable.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
+
             </div>
             <!-- End Nav Card -->
         </div>
@@ -369,124 +656,61 @@
         <!-- Footer Start-->
         <div class="footer-area footer-padding">
             <div class="container">
-                <div class="row d-flex justify-content-between">
+                <div class="row d-flex justify-content-center">
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                        <div class="single-footer-caption mb-50">
                          <div class="single-footer-caption mb-30">
-                             <div class="footer-tittle">
-                                 <h4>About Us</h4>
-                                 <div class="footer-pera">
-                                     <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
-                                </div>
+                             <div class="footer-tittle d-flex justify-content-center">
+                                 <h4><a href="index.html#about">About</a> </h4>
                              </div>
                          </div>
                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Contact Info</h4>
-                                <ul>
-                                    <li>
-                                        <p>Address :Your address goes here, your demo address.</p>
-                                    </li>
-                                    <li><a href="#">Phone : +8880 44338899</a></li>
-                                    <li><a href="#">Email : info@colorlib.com</a></li>
-                                </ul>
+                            <div class="footer-tittle d-flex justify-content-center">
+                                <h4><a href="index.html#tracks">Call for Papers</a></h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Important Link</h4>
-                                <ul>
-                                    <li><a href="#"> View Project</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Testimonial</a></li>
-                                    <li><a href="#">Proparties</a></li>
-                                    <li><a href="#">Support</a></li>
-                                </ul>
+                            <div class="footer-tittle d-flex justify-content-center">
+                                <h4><a href="index.html#dates">Important Dates</a></h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-5">
                         <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Newsletter</h4>
-                                <div class="footer-pera footer-pera2">
-                                 <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
-                             </div>
-                             <!-- Form -->
-                             <div class="footer-form" >
-                                 <div id="mc_embed_signup">
-                                     <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                     method="get" class="subscribe_form relative mail_part">
-                                         <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                         class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                         onblur="this.placeholder = ' Email Address '">
-                                         <div class="form-icon">
-                                             <button type="submit" name="submit" id="newsletter-submit"
-                                             class="email_icon newsletter-submit button-contactForm"><img src="assets/img/gallery/form.png" alt=""></button>
-                                         </div>
-                                         <div class="mt-10 info"></div>
-                                     </form>
-                                 </div>
-                             </div>
+                            <div class="footer-tittle d-flex justify-content-center">
+                                <h4><a href="index.html#contact-details">Contact</a></h4>
                             </div>
                         </div>
                     </div>
                 </div>
-               <!--  -->
-               <div class="row footer-wejed justify-content-between">
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <!-- logo -->
-                        <div class="footer-logo mb-20">
-                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                    <div class="footer-tittle-bottom">
-                        <span>5000+</span>
-                        <p>Talented Hunter</p>
-                    </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                        <div class="footer-tittle-bottom">
-                            <span>451</span>
-                            <p>Talented Hunter</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                        <!-- Footer Bottom Tittle -->
-                        <div class="footer-tittle-bottom">
-                            <span>568</span>
-                            <p>Talented Hunter</p>
-                        </div>
-                    </div>
-               </div>
+
             </div>
         </div>
         <!-- footer-bottom area -->
         <div class="footer-bottom-area footer-bg">
             <div class="container">
                 <div class="footer-border">
-                     <div class="row d-flex justify-content-between align-items-center">
-                         <div class="col-xl-10 col-lg-8 ">
-                             <div class="footer-copy-right">
-                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                     <div class="row d-flex justify-content-center align-items-center">
+                         <div class="col-12">
+                             <div class="footer-copy-right d-flex justify-content-center">
+                                 <p>
+                                    <strong>ICAISE 2023</strong> | Copyright &copy;2022-23 All Rights Reserved</a>
+                                    <br>
+                                </p>
                              </div>
                          </div>
-                         <div class="col-xl-2 col-lg-4">
-                             <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-behance"></i></a>
-                             </div>
-                         </div>
+                         <div class="col-12">
+                            <div class="footer-copy-right d-flex justify-content-center">
+                               <!-- <p>
+                                   <a href="" class="btn text-white"> Website View: <span id="view-count"></span></a>
+                               </p> -->
+                            </div>
+                        </div>
                      </div>
                 </div>
             </div>
