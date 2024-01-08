@@ -247,7 +247,11 @@ function deploy(json){
   json.forEach(element => {
     // console.log(element.name)
     // console.log(element.website)
-    document.getElementById("hotels-nearby").innerHTML += ('<li>'+`<a href="${element.website}">${element.name}</a>`+'</li>');
+    try {
+      document.getElementById("hotels-nearby").innerHTML += ('<li>'+`<a href="${element.website}">${element.name}</a>`+'</li>');
+    } catch (error) {
+      console.log(error)
+    }
   });
 }
 
@@ -257,10 +261,14 @@ fetch('Json/committee.json')
 
 function committee(json){
   json.forEach(element => {
-    document.getElementById("pc-list").innerHTML += (
-      `<h5>&#x2022; ${element.name}</h5>`+
-      `<h5 class="mb-4">${element.designation}</h5>`
-    );
+    try {
+      document.getElementById("pc-list").innerHTML += (
+        `<h5>&#x2022; ${element.name}</h5>`+
+        `<h5 class="mb-4">${element.designation}</h5>`
+      );  
+    } catch (error) {
+      console.log(error)
+    }
   });
 }
 
@@ -328,7 +336,11 @@ const tourism = [
   }
 ]
 
-document.getElementById("tourism").innerHTML = tourism.map(tourismPhotos).join('');
+try {
+  document.getElementById("tourism").innerHTML = tourism.map(tourismPhotos).join('');
+} catch (error) {
+  console.log(error)
+}
 
 $.getJSON("https://api.countapi.xyz/hit/icaise.cusat.ac.in", function(response) {
   document.getElementById("view-count").innerHTML = 1000+response.value;
@@ -387,4 +399,90 @@ function speakerCard({name,designation,cover_img,topic}){
   </div>`
 }
 
-document.getElementById("speaker-card").innerHTML = speakers.map(speakerCard).join('');
+try {
+  document.getElementById("speaker-card").innerHTML = speakers.map(speakerCard).join('');
+} catch (error) {
+  console.log(error)
+}
+
+
+function albumImages({image, name}){
+  console.log(image+""+name)
+  return `
+    <div class="col-sm-12 col-lg-6 col-xxl-6 pt-4">
+      <div class="card">
+          <img class="card-img-top img-fluid" src="${image}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">${name}</h5>
+          </div>
+      </div>
+    </div>  
+  `
+}
+
+
+const albums = [
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1368.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1367.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1373.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1376.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0929.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0933.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0942.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0969.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0972.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0975.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0978.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0982.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0984.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T0996.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1000.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1013.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1015.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1016.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1017.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1018.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1019.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1026.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1032.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1034.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1038.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1041.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1047.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day1/BE3T1048.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day2/BE3T1084.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day2/BE3T1092.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day2/BE3T1103.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day2/BE3T1106.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day2/BE3T1110.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day2/BE3T1119.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day2/BE3T1124.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1334.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1336.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1345.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1346.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1347.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1351.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1353.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1354.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1356.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1357.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1360.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1366.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1377.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1384.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1385.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1388.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1395.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1404.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1406.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1409.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1411.jpg'},
+  {'name': '', 'image': 'assets/img/album/Day3/BE3T1416.jpg'}
+]
+
+try {
+  document.getElementById("albums").innerHTML = albums.map(albumImages).join('');
+} catch (error) {
+  console.log(error)
+}
